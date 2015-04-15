@@ -1,0 +1,20 @@
+	We were asked to find a better heuristic than the total manhattan distance from each 
+piece to the place where it lies in the goal state. 
+
+	In this puzzle, initial state's heuristic using the manhattan distance is 16, and the
+actual distance to the goal state is 16, because I achieved it in 16 moves. That means for 
+this state, the heuristic is exactly equal to the true distance, meaning it is a perfect
+heuristic for this state. However, if we examine a much more disorderly state, 
+
+(Our initial: h==16==h*)
+[2 ][3 ][7 ][4 ][5 ]
+[1 ][# ][11][# ][8 ]
+[6 ][10][_ ][12][15]
+[9 ][# ][14][# ][20]
+[13][16][17][18][19]
+ 
+[2 ][1 ][11][5 ][4 ]
+[9 ][# ][3 ][# ][8 ]
+[6 ][10][_ ][12][15]
+[9 ][# ][14][# ][20]
+[13][16][17][18][19]

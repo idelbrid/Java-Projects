@@ -1,0 +1,62 @@
+Ian Delbridge
+CSC 242
+Liu
+4/14/15
+
+Advanced Approaches(N-Queens) Report
+
+Score function f(state s) is the number of conflicting queens on the board
+
+Definition of neighbors: take the rightmost most-conflicting queen and place it in a new
+	row.
+
+Best State: 
+Result: (0) [3,0,7,11,17,2,13,19,23,15,20,12,21,4,6,10,18,1,14,9,24,8,5,16,22] in 156.0ms
+(24) [##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][Q ][  ][##][  ][##]
+(23) [  ][##][  ][##][  ][##][  ][##][Q ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ]
+(22) [##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][Q ]
+(21) [  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][Q ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ]
+(20) [##][  ][##][  ][##][  ][##][  ][##][  ][Q ][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##]
+(19) [  ][##][  ][##][  ][##][  ][Q ][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ]
+(18) [##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][Q ][  ][##][  ][##][  ][##][  ][##]
+(17) [  ][##][  ][##][Q ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ]
+(16) [##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][Q ][##]
+(15) [  ][##][  ][##][  ][##][  ][##][  ][Q ][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ]
+(14) [##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][Q ][  ][##][  ][##][  ][##]
+(13) [  ][##][  ][##][  ][##][Q ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ]
+(12) [##][  ][##][  ][##][  ][##][  ][##][  ][##][Q ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##]
+(11) [  ][##][  ][Q ][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ]
+(10) [##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][Q ][##][  ][##][  ][##][  ][##][  ][##]
+(9)  [  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][Q ][  ][##][  ][##][  ]
+(8)  [##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][Q ][##][  ][##]
+(7)  [  ][##][Q ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ]
+(6)  [##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][Q ][  ][##][  ][##][  ][##][  ][##][  ][##]
+(5)  [  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][Q ][##][  ]
+(4)  [##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][Q ][##][  ][##][  ][##][  ][##][  ][##][  ][##]
+(3)  [Q ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ]
+(2)  [##][  ][##][  ][##][Q ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##]
+(1)  [  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][Q ][  ][##][  ][##][  ][##][  ]
+(0)  [##][Q ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##][  ][##]
+     (0) (1) (2) (3) (4) (5) (6) (7) (8) (9) (10)(11)(12)(13)(14)(15)(16)(17)(18)(19)(20)(21)(22)(23)(24)
+
+There are zero conflicting queens in this result. 
+
+I used 100% Hill Climbing approach: 
+	random start, 
+	generate neighbors, and 
+	go with the neighbor with the best (smallest) f. 
+		If no neighbor is better than current, and this is not the absolute 
+			solution, restart randomly. 
+	Exit with failure after trying N number of times. 
+
+	The N is given through a program argument, as is the number of queens (functional for 
+	any n-queens. 
+
+This actually worked pretty well. I did not test it compared to other algorithms, but given
+	at most about a second to try enough times, this naive algorithm consistently finds
+	a perfect solution to 25-queens. I tested 50 queens, and even then, the algorithm
+	computed a perfect solution in about a minute, with number of tries on the order 
+	of 100,000. 
+I expect that using a less greedy heuristic implemenation, I could easily reduce the number 
+	of tries, but this would increase the time before restart, and the total time that 
+	it would take is unclear. However, then the run time would have less variance. 

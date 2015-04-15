@@ -1,0 +1,228 @@
+[education=HS-grad]: 10501
+[education-num=9, education=HS-grad]: 10501
+[capital-loss=0, education=HS-grad]: 10098
+[education-num=9, capital-loss=0, education=HS-grad]: 10098
+[income=<=50K]: 24720
+[native-country=United-States, income=<=50K]: 21999
+[capital-loss=0, native-country=United-States, income=<=50K]: 21325
+[capital-gain=0, native-country=United-States, income=<=50K]: 21068
+[capital-loss=0, capital-gain=0, native-country=United-States, income=<=50K]: 20394
+[race=White, income=<=50K]: 20699
+[native-country=United-States, race=White, income=<=50K]: 18917
+[capital-loss=0, native-country=United-States, race=White, income=<=50K]: 18313
+[capital-gain=0, native-country=United-States, race=White, income=<=50K]: 18097
+[capital-loss=0, capital-gain=0, native-country=United-States, race=White, income=<=50K]: 17493
+[capital-loss=0, race=White, income=<=50K]: 20059
+[capital-gain=0, race=White, income=<=50K]: 19801
+[capital-loss=0, capital-gain=0, race=White, income=<=50K]: 19161
+[capital-loss=0, income=<=50K]: 23974
+[capital-gain=0, income=<=50K]: 23685
+[capital-loss=0, capital-gain=0, income=<=50K]: 22939
+[hours-per-week=40]: 15217
+[native-country=United-States, hours-per-week=40]: 13418
+[capital-loss=0, native-country=United-States, hours-per-week=40]: 12827
+[capital-gain=0, native-country=United-States, hours-per-week=40]: 12404
+[capital-loss=0, capital-gain=0, native-country=United-States, hours-per-week=40]: 11813
+[race=White, hours-per-week=40]: 12543
+[native-country=United-States, race=White, hours-per-week=40]: 11410
+[capital-loss=0, native-country=United-States, race=White, hours-per-week=40]: 10883
+[capital-gain=0, native-country=United-States, race=White, hours-per-week=40]: 10509
+[capital-loss=0, race=White, hours-per-week=40]: 11989
+[capital-gain=0, race=White, hours-per-week=40]: 11582
+[capital-loss=0, capital-gain=0, race=White, hours-per-week=40]: 11028
+[workclass=Private, hours-per-week=40]: 11113
+[capital-loss=0, workclass=Private, hours-per-week=40]: 10683
+[capital-gain=0, workclass=Private, hours-per-week=40]: 10363
+[income=<=50K, hours-per-week=40]: 11970
+[native-country=United-States, income=<=50K, hours-per-week=40]: 10493
+[capital-loss=0, native-country=United-States, income=<=50K, hours-per-week=40]: 10169
+[capital-gain=0, native-country=United-States, income=<=50K, hours-per-week=40]: 10055
+[capital-loss=0, income=<=50K, hours-per-week=40]: 11602
+[capital-gain=0, income=<=50K, hours-per-week=40]: 11479
+[capital-loss=0, capital-gain=0, income=<=50K, hours-per-week=40]: 11111
+[capital-loss=0, hours-per-week=40]: 14559
+[sex=Male, hours-per-week=40]: 10295
+[capital-gain=0, hours-per-week=40]: 14096
+[capital-loss=0, capital-gain=0, hours-per-week=40]: 13438
+[relationship=Husband]: 13193
+[native-country=United-States, relationship=Husband]: 11861
+[marital-status=Married-civ-spouse, native-country=United-States, relationship=Husband]: 11852
+[sex=Male, marital-status=Married-civ-spouse, native-country=United-States, relationship=Husband]: 11851
+[race=White, native-country=United-States, relationship=Husband]: 11053
+[marital-status=Married-civ-spouse, race=White, native-country=United-States, relationship=Husband]: 11044
+[sex=Male, marital-status=Married-civ-spouse, race=White, native-country=United-States, relationship=Husband]: 11043
+[capital-loss=0, race=White, native-country=United-States, relationship=Husband]: 10315
+[marital-status=Married-civ-spouse, capital-loss=0, race=White, native-country=United-States, relationship=Husband]: 10306
+[sex=Male, marital-status=Married-civ-spouse, capital-loss=0, race=White, native-country=United-States, relationship=Husband]: 10305
+[sex=Male, capital-loss=0, race=White, native-country=United-States, relationship=Husband]: 10314
+[sex=Male, race=White, native-country=United-States, relationship=Husband]: 11052
+[capital-loss=0, native-country=United-States, relationship=Husband]: 11086
+[marital-status=Married-civ-spouse, capital-loss=0, native-country=United-States, relationship=Husband]: 11077
+[sex=Male, marital-status=Married-civ-spouse, capital-loss=0, native-country=United-States, relationship=Husband]: 11076
+[sex=Male, capital-loss=0, native-country=United-States, relationship=Husband]: 11085
+[sex=Male, native-country=United-States, relationship=Husband]: 11860
+[marital-status=Married-civ-spouse, relationship=Husband]: 13184
+[sex=Male, marital-status=Married-civ-spouse, relationship=Husband]: 13183
+[race=White, relationship=Husband]: 11940
+[marital-status=Married-civ-spouse, race=White, relationship=Husband]: 11931
+[sex=Male, marital-status=Married-civ-spouse, race=White, relationship=Husband]: 11930
+[capital-loss=0, race=White, relationship=Husband]: 11159
+[marital-status=Married-civ-spouse, capital-loss=0, race=White, relationship=Husband]: 11150
+[sex=Male, marital-status=Married-civ-spouse, capital-loss=0, race=White, relationship=Husband]: 11149
+[sex=Male, capital-loss=0, race=White, relationship=Husband]: 11158
+[sex=Male, race=White, relationship=Husband]: 11939
+[capital-loss=0, relationship=Husband]: 12337
+[marital-status=Married-civ-spouse, capital-loss=0, relationship=Husband]: 12328
+[sex=Male, marital-status=Married-civ-spouse, capital-loss=0, relationship=Husband]: 12327
+[sex=Male, capital-loss=0, relationship=Husband]: 12336
+[sex=Male, relationship=Husband]: 13192
+[capital-gain=0, relationship=Husband]: 11595
+[native-country=United-States, capital-gain=0, relationship=Husband]: 10408
+[marital-status=Married-civ-spouse, native-country=United-States, capital-gain=0, relationship=Husband]: 10400
+[sex=Male, marital-status=Married-civ-spouse, native-country=United-States, capital-gain=0, relationship=Husband]: 10399
+[sex=Male, native-country=United-States, capital-gain=0, relationship=Husband]: 10407
+[marital-status=Married-civ-spouse, capital-gain=0, relationship=Husband]: 11587
+[sex=Male, marital-status=Married-civ-spouse, capital-gain=0, relationship=Husband]: 11586
+[race=White, capital-gain=0, relationship=Husband]: 10473
+[marital-status=Married-civ-spouse, race=White, capital-gain=0, relationship=Husband]: 10465
+[sex=Male, marital-status=Married-civ-spouse, race=White, capital-gain=0, relationship=Husband]: 10464
+[sex=Male, race=White, capital-gain=0, relationship=Husband]: 10472
+[capital-loss=0, capital-gain=0, relationship=Husband]: 10739
+[marital-status=Married-civ-spouse, capital-loss=0, capital-gain=0, relationship=Husband]: 10731
+[sex=Male, marital-status=Married-civ-spouse, capital-loss=0, capital-gain=0, relationship=Husband]: 10730
+[sex=Male, capital-loss=0, capital-gain=0, relationship=Husband]: 10738
+[sex=Male, capital-gain=0, relationship=Husband]: 11594
+[marital-status=Married-civ-spouse]: 14976
+[native-country=United-States, marital-status=Married-civ-spouse]: 13368
+[race=White, native-country=United-States, marital-status=Married-civ-spouse]: 12369
+[capital-loss=0, race=White, native-country=United-States, marital-status=Married-civ-spouse]: 11545
+[capital-loss=0, native-country=United-States, marital-status=Married-civ-spouse]: 12502
+[race=White, marital-status=Married-civ-spouse]: 13410
+[capital-loss=0, race=White, marital-status=Married-civ-spouse]: 12537
+[capital-loss=0, marital-status=Married-civ-spouse]: 14018
+[sex=Male, marital-status=Married-civ-spouse]: 13319
+[native-country=United-States, sex=Male, marital-status=Married-civ-spouse]: 11947
+[race=White, native-country=United-States, sex=Male, marital-status=Married-civ-spouse]: 11125
+[capital-loss=0, race=White, native-country=United-States, sex=Male, marital-status=Married-civ-spouse]: 10386
+[capital-loss=0, native-country=United-States, sex=Male, marital-status=Married-civ-spouse]: 11171
+[race=White, sex=Male, marital-status=Married-civ-spouse]: 12036
+[capital-loss=0, race=White, sex=Male, marital-status=Married-civ-spouse]: 11253
+[capital-loss=0, sex=Male, marital-status=Married-civ-spouse]: 12461
+[capital-gain=0, marital-status=Married-civ-spouse]: 13157
+[native-country=United-States, capital-gain=0, marital-status=Married-civ-spouse]: 11719
+[race=White, native-country=United-States, capital-gain=0, marital-status=Married-civ-spouse]: 10820
+[capital-loss=0, native-country=United-States, capital-gain=0, marital-status=Married-civ-spouse]: 10853
+[race=White, capital-gain=0, marital-status=Married-civ-spouse]: 11756
+[capital-loss=0, race=White, capital-gain=0, marital-status=Married-civ-spouse]: 10883
+[capital-loss=0, capital-gain=0, marital-status=Married-civ-spouse]: 12199
+[sex=Male, capital-gain=0, marital-status=Married-civ-spouse]: 11710
+[native-country=United-States, sex=Male, capital-gain=0, marital-status=Married-civ-spouse]: 10486
+[race=White, sex=Male, capital-gain=0, marital-status=Married-civ-spouse]: 10560
+[capital-loss=0, sex=Male, capital-gain=0, marital-status=Married-civ-spouse]: 10852
+[sex=Male]: 21790
+[native-country=United-States, sex=Male]: 19488
+[capital-loss=0, native-country=United-States, sex=Male]: 18448
+[capital-gain=0, native-country=United-States, sex=Male]: 17586
+[capital-loss=0, capital-gain=0, native-country=United-States, sex=Male]: 16546
+[race=White, sex=Male]: 19174
+[native-country=United-States, race=White, sex=Male]: 17653
+[capital-loss=0, native-country=United-States, race=White, sex=Male]: 16679
+[capital-loss=0, race=White, sex=Male]: 18142
+[capital-gain=0, race=White, sex=Male]: 17286
+[native-country=United-States, capital-gain=0, race=White, sex=Male]: 15883
+[capital-loss=0, native-country=United-States, capital-gain=0, race=White, sex=Male]: 14909
+[capital-loss=0, capital-gain=0, race=White, sex=Male]: 16254
+[workclass=Private, sex=Male]: 14944
+[native-country=United-States, workclass=Private, sex=Male]: 13209
+[capital-loss=0, native-country=United-States, workclass=Private, sex=Male]: 12538
+[capital-gain=0, native-country=United-States, workclass=Private, sex=Male]: 11991
+[capital-loss=0, capital-gain=0, native-country=United-States, workclass=Private, sex=Male]: 11320
+[race=White, workclass=Private, sex=Male]: 13123
+[native-country=United-States, race=White, workclass=Private, sex=Male]: 11956
+[capital-loss=0, native-country=United-States, race=White, workclass=Private, sex=Male]: 11325
+[capital-loss=0, race=White, workclass=Private, sex=Male]: 12459
+[capital-gain=0, race=White, workclass=Private, sex=Male]: 11912
+[native-country=United-States, capital-gain=0, race=White, workclass=Private, sex=Male]: 10824
+[capital-loss=0, native-country=United-States, capital-gain=0, race=White, workclass=Private, sex=Male]: 10193
+[capital-loss=0, capital-gain=0, race=White, workclass=Private, sex=Male]: 11248
+[income=<=50K, workclass=Private, sex=Male]: 10707
+[capital-loss=0, income=<=50K, workclass=Private, sex=Male]: 10385
+[capital-gain=0, income=<=50K, workclass=Private, sex=Male]: 10238
+[capital-loss=0, workclass=Private, sex=Male]: 14209
+[capital-gain=0, workclass=Private, sex=Male]: 13604
+[capital-loss=0, capital-gain=0, workclass=Private, sex=Male]: 12869
+[income=<=50K, sex=Male]: 15128
+[native-country=United-States, income=<=50K, sex=Male]: 13389
+[capital-loss=0, native-country=United-States, income=<=50K, sex=Male]: 12957
+[capital-gain=0, native-country=United-States, income=<=50K, sex=Male]: 12773
+[capital-loss=0, capital-gain=0, native-country=United-States, income=<=50K, sex=Male]: 12341
+[race=White, income=<=50K, sex=Male]: 13085
+[native-country=United-States, race=White, income=<=50K, sex=Male]: 11913
+[capital-loss=0, native-country=United-States, race=White, income=<=50K, sex=Male]: 11515
+[capital-gain=0, native-country=United-States, race=White, income=<=50K, sex=Male]: 11350
+[capital-loss=0, capital-gain=0, native-country=United-States, race=White, income=<=50K, sex=Male]: 10952
+[capital-loss=0, race=White, income=<=50K, sex=Male]: 12665
+[capital-gain=0, race=White, income=<=50K, sex=Male]: 12470
+[capital-loss=0, capital-gain=0, race=White, income=<=50K, sex=Male]: 12050
+[capital-loss=0, income=<=50K, sex=Male]: 14650
+[capital-gain=0, income=<=50K, sex=Male]: 14441
+[capital-loss=0, capital-gain=0, income=<=50K, sex=Male]: 13963
+[capital-loss=0, sex=Male]: 20640
+[capital-gain=0, sex=Male]: 19701
+[capital-loss=0, capital-gain=0, sex=Male]: 18551
+[education-num=9]: 10501
+[capital-loss=0, education-num=9]: 10098
+[capital-loss=0]: 31042
+[race=White]: 27816
+[native-country=United-States, race=White]: 25621
+[capital-loss=0, native-country=United-States, race=White]: 24349
+[capital-loss=0, race=White]: 26470
+[capital-gain=0, race=White]: 25407
+[native-country=United-States, capital-gain=0, race=White]: 23369
+[capital-loss=0, native-country=United-States, capital-gain=0, race=White]: 22097
+[capital-loss=0, capital-gain=0, race=White]: 24061
+[native-country=United-States]: 29170
+[capital-loss=0, native-country=United-States]: 27791
+[capital-gain=0, native-country=United-States]: 26699
+[capital-loss=0, capital-gain=0, native-country=United-States]: 25320
+[workclass=Private]: 22696
+[native-country=United-States, workclass=Private]: 20135
+[capital-loss=0, native-country=United-States, workclass=Private]: 19237
+[capital-gain=0, native-country=United-States, workclass=Private]: 18558
+[capital-loss=0, capital-gain=0, native-country=United-States, workclass=Private]: 17660
+[race=White, workclass=Private]: 19404
+[native-country=United-States, race=White, workclass=Private]: 17728
+[capital-loss=0, native-country=United-States, race=White, workclass=Private]: 16895
+[capital-gain=0, native-country=United-States, race=White, workclass=Private]: 16292
+[capital-loss=0, capital-gain=0, native-country=United-States, race=White, workclass=Private]: 15459
+[capital-loss=0, race=White, workclass=Private]: 18528
+[capital-gain=0, race=White, workclass=Private]: 17864
+[capital-loss=0, capital-gain=0, race=White, workclass=Private]: 16988
+[income=<=50K, workclass=Private]: 17733
+[native-country=United-States, income=<=50K, workclass=Private]: 15594
+[capital-loss=0, native-country=United-States, income=<=50K, workclass=Private]: 15132
+[capital-gain=0, native-country=United-States, income=<=50K, workclass=Private]: 14976
+[capital-loss=0, capital-gain=0, native-country=United-States, income=<=50K, workclass=Private]: 14514
+[race=White, income=<=50K, workclass=Private]: 14872
+[native-country=United-States, race=White, income=<=50K, workclass=Private]: 13452
+[capital-loss=0, native-country=United-States, race=White, income=<=50K, workclass=Private]: 13033
+[capital-gain=0, native-country=United-States, race=White, income=<=50K, workclass=Private]: 12903
+[capital-loss=0, capital-gain=0, native-country=United-States, race=White, income=<=50K, workclass=Private]: 12484
+[capital-loss=0, race=White, income=<=50K, workclass=Private]: 14430
+[capital-gain=0, race=White, income=<=50K, workclass=Private]: 14263
+[capital-loss=0, capital-gain=0, race=White, income=<=50K, workclass=Private]: 13821
+[capital-loss=0, income=<=50K, workclass=Private]: 17225
+[capital-gain=0, income=<=50K, workclass=Private]: 17037
+[capital-loss=0, capital-gain=0, income=<=50K, workclass=Private]: 16529
+[capital-loss=0, workclass=Private]: 21714
+[capital-gain=0, workclass=Private]: 20964
+[capital-loss=0, capital-gain=0, workclass=Private]: 19982
+[sex=Female]: 10771
+[capital-loss=0, sex=Female]: 10402
+[capital-gain=0, sex=Female]: 10148
+[capital-gain=0]: 29849
+[capital-loss=0, capital-gain=0]: 28330
+[marital-status=Never-married]: 10683
+[income=<=50K, marital-status=Never-married]: 10192
+[capital-loss=0, marital-status=Never-married]: 10369
+[capital-gain=0, marital-status=Never-married]: 10228
